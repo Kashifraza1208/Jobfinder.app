@@ -1,0 +1,52 @@
+.success-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.successbox {
+  background-color: #f5f5f5;
+  width: 25vw;
+  height: 50vh;
+  padding: 30px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.gap {
+  margin-bottom: 20px;
+  font-size: 20px;
+  white-space: pre-wrap; /* Allow text to wrap within the container */
+  overflow: hidden;
+}
+
+.gap-cover {
+  overflow: scroll;
+}
+
+/* Add more styles as needed */
+
+@media screen and (max-width: 600px) {
+  .successbox {
+    background-color: #f5f5f5;
+    width: 75vw;
+    overflow: hidden;
+  }
+
+  .gap {
+    margin-bottom: 20px;
+    font-size: 20px;
+    white-space: pre-wrap; /* Allow text to wrap within the container */
+  }
+
+  .gap-cover {
+    overflow: scroll;
+  }
+}
