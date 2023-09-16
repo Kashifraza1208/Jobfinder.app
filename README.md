@@ -1,4 +1,30 @@
-# Getting Started with Create React App
+# Project Demo - https://jobfinder-app.vercel.app/login
+
+Project Summary:
+
+Objective: Create a web portal with login/signup functionality, job search using the GitHub API, job details view, and application submission. Use Redux for state management and local/session storage for session maintenance.
+
+# Feature
+
+User authentication with minimal login/signup details.
+Utilize local/session storage for user session management.
+Landing page with an input for selecting a programming language.
+Fetch job listings from the GitHub public API based on the chosen language.
+Display a list of job postings with an option to view details.
+Fetch detailed job information upon selection.
+Create a separate page for viewing job details and submitting applications.
+Application form includes fields for name, email, cover letter, and resume upload.
+Show a success page after application submission with a preview of the application data.
+Implement design, validations, and user interface rules as required.
+
+
+# Tech Stack
+Frontend: React for building the user interface.
+State Management: Redux for managing application state.
+Session Management: Local/session storage for maintaining user sessions.
+API Integration: GitHub public API for job listings.
+Styling: Implement design, validation, and UI rules for a cohesive user experience.
+This project involves creating a web portal that allows users to search for programming jobs using the GitHub Jobs API, view job details, and submit applications. It emphasizes user authentication, state management using Redux, and local/session storage for session persistence. The application should provide a user-friendly interface with proper design, validation, and rules for a seamless user experience.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
